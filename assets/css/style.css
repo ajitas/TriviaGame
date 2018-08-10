@@ -10,7 +10,7 @@ body {
     font-weight:bolder;
     color:white;
     padding:30px 30px 5px 30px;
-    text-shadow: 3px 3px 4px rgb(23, 183, 204);
+    text-shadow: 3px 3px 4px turquoise;
 }
 
 .btn {
@@ -22,7 +22,7 @@ body {
 #question-area {
     background:white;
     text-align:left;
-    box-shadow: 5px 5px 20px rgb(23, 183, 204);
+    box-shadow: 5px 5px 20px turquoise;
     padding-top:20px;
     font-size:20px;
 }
@@ -30,7 +30,7 @@ body {
 #time-remaining {
     padding-top:10px;
     background:white;
-    box-shadow: 5px 5px 20px rgb(23, 183, 204);
+    box-shadow: 5px 5px 20px turquoise;
     margin-bottom:10px;
     font-size:20px;
 }
@@ -41,7 +41,7 @@ body {
     padding-bottom:150px;
     font-size:24px;
     background:white;
-    box-shadow: 5px 5px 20px rgb(23, 183, 204);
+    box-shadow: 5px 5px 20px turquoise;
 }
 
 label {
