@@ -9,7 +9,7 @@ body {
     font-size:50px;
     color:white;
     padding:30px 30px 5px 30px;
-    text-shadow: 3px 3px 4px rgb(23, 183, 204)
+    text-shadow: 3px 3px 4px rgb(23, 183, 204);
 }
 
 .btn {
@@ -20,8 +20,15 @@ body {
 
 #question-area, #evaluation-area {
     background:white;
-    border: 1px black solid;
     text-align:left;
+    box-shadow: 5px 5px 20px rgb(23, 183, 204);
+}
+
+#time-remaining {
+    padding-top:10px;
+    background:white;
+    box-shadow: 5px 5px 20px rgb(23, 183, 204);
+    margin-bottom:10px;
 }
 
 #evaluation-area{
@@ -33,5 +40,8 @@ body {
 
 label {
     padding-left:7px;
+}
+#question-area {
+    padding-left:30px;
 }
 
