@@ -24,6 +24,7 @@ body {
     text-align:left;
     box-shadow: 5px 5px 20px rgb(23, 183, 204);
     padding-top:20px;
+    font-size:20px;
 }
 
 #time-remaining {
@@ -31,6 +32,7 @@ body {
     background:white;
     box-shadow: 5px 5px 20px rgb(23, 183, 204);
     margin-bottom:10px;
+    font-size:20px;
 }
 
 #evaluation-area{
