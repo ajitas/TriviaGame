@@ -18,10 +18,11 @@ body {
     background-color: turquoise;
 }
 
-#question-area, #evaluation-area {
+#question-area {
     background:white;
     text-align:left;
     box-shadow: 5px 5px 20px rgb(23, 183, 204);
+    padding-top:20px;
 }
 
 #time-remaining {
@@ -36,6 +37,8 @@ body {
     padding-top:150px;
     padding-bottom:150px;
     font-size:24px;
+    background:white;
+    box-shadow: 5px 5px 20px rgb(23, 183, 204);
 }
 
 label {

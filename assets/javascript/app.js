@@ -1,41 +1,30 @@
 //data structure to store the info about the questions
 var quiz = [
-    {question:"what is 2+2?",
-    options:[4,6,8,9],
-    answer:"4"},
-    {question:"what is 20-10?",
-    options:[4,6,8,10],
-    answer:"10"},
-    {question:"what is 2*7?",
-    options:[4,14,8,9],
-    answer:"14"},
-    {question:"what is 6*6?",
-    options:[4,6,36,9],
-    answer:"36"},
-    {question:"what is 2+2?",
-    options:[4,6,8,9],
-    answer:"4"},
-    {question:"what is 20-10?",
-    options:[4,6,8,10],
-    answer:"10"},
-    {question:"what is 2*7?",
-    options:[4,14,8,9],
-    answer:"14"},
-    {question:"what is 6*6?",
-    options:[4,6,36,9],
-    answer:"36"},
-    {question:"what is 2+2?",
-    options:[4,6,8,9],
-    answer:"4"},
-    {question:"what is 20-10?",
-    options:[4,6,8,10],
-    answer:"10"},
-    {question:"what is 2*7?",
-    options:[4,14,8,9],
-    answer:"14"},
-    {question:"what is 6*6?",
-    options:[4,6,36,9],
-    answer:"36"}
+    {question:"Which is the deepest lake in US?",
+    options:["Lake Michigan","Crater Lake","Lake Tahoe","Lake Clark"],
+    answer:"Crater Lake"},
+    {question:"Which is the largest state in US?",
+    options:["Alaska","California","New Mexico","Arizona"],
+    answer:"Alaska"},
+    {question:"Who was the third president of US?",
+    options:["Andrew Jackson","James Monroe","Thomas Jefferson","George Washington"],
+    answer:"Thomas Jefferson"},
+    {question:"Which is the least populated state in US?",
+    options:["Rhode Island","Delaware","North Dakota","Wyoming"],
+    answer:"Wyoming"},
+    {question:"Which is the largest art meuseum in US?",
+    options:["National Gallery of Art","Minneapolis Institute of Art","Metropolitan Museum of Art","San Francisco Museum of Modern Art"],
+    answer:"Metropolitan Museum of Art"},
+    {question:"Which is the largest baseball stadium in US?",
+    options:["Coors Field, Denver","Safeco Field, Seattle","AT&T Park, SF","Dodger Stadium, LA"],
+    answer:"Dodger Stadium,LA"},
+    {question:"Which is the most populated state in US?",
+    options:["Florida","California","New York","Texas"],
+    answer:"California"},
+    {question:"Which is the hottest state in US?",
+    options:["Florida","Texas","Arizona","Georgia"],
+    answer:"Florida"},
+    
 ];
 
 //global counters
@@ -99,6 +88,7 @@ $("#start-game").on("click",function(){
             $("#question-area").append(optionDiv);
 
         }
+        $("#question-area").append("<br>");
     }
 });
 
