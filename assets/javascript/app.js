@@ -28,7 +28,7 @@ var quiz = [
 ];
 
 //global counters
-var currentTime =60;
+var currentTime =120;
 var updateTime;
 var correct = 0;
 var incorrect = 0;
