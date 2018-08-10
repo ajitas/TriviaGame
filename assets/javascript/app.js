@@ -107,6 +107,10 @@ function decrementTime(){
     //add the new time to the time-remaining div
     $("#time-remaining").append("<p>" + timeConvert(currentTime)+"</p>");
 
+    if(currentTime <=20)
+    {
+        $("#time-remaining").css("color","red");
+    }
     //if time becomes 0, your time is up and the evaluation of the game is shown
     if(currentTime === 0){
         //evaluate how the player did
